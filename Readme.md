@@ -16,6 +16,7 @@
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![H2](https://img.shields.io/badge/H2%20Database-151F97?style=for-the-badge&logoColor=white)
 
 ## Ementa 🔳⏸✅
 * 🔳 - 📁- Módulo 01 - Introdução
