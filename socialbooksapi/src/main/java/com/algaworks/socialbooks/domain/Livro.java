@@ -6,10 +6,19 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Transient;
+
+@Entity
 public class Livro {
 	
 	// Essa notação mostras somente no json da requisição os campos que não forem nulos
 	@JsonInclude(Include.NON_NULL)
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
 	private String nome;
@@ -24,6 +33,7 @@ public class Livro {
 	private String resumo;
 	
 	@JsonInclude(Include.NON_NULL)
+	@Transient
 	private List<Comentario> comentarios;
 	
 	@JsonInclude(Include.NON_NULL)
