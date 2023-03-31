@@ -8,7 +8,7 @@
 ![Badge em Status](https://img.shields.io/badge/STATUS-INICIADO-green?style=for-the-badge)
 
 * Início :  <b>28/03/2023</b> - Finalizado : <b>00/00/000 </b>
-* Curso : <b>Começando com Webservices RESTFul e Springo</b>
+* Curso : <b>Começando com Webservices RESTFul e Spring</b>
 * Instituição : <b>AlgaWorks</b>
 * Link do Curso : [Curso Começando com Webservices RESTFul e Spring](https://www.algaworks.com/)
 
