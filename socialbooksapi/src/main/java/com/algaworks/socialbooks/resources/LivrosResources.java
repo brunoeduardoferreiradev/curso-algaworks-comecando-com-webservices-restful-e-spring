@@ -29,10 +29,16 @@ public class LivrosResources {
 	public Optional<Livro> buscar(@PathVariable("id") Long id) {
 		return livrosRepository.findById(id);
 	}
-	
+
 	@DeleteMapping("/{id}")
 	public void deletar(@PathVariable("id") Long id) {
 		livrosRepository.deleteById(id);
 	}
-	
+
+	@PutMapping("/{id}")
+	public void atualizar(@RequestBody Livro livro, @PathVariable("id") Long id) {
+        livro.setId(id);
+        livrosRepository.save(livro);
+	}
+
 }
