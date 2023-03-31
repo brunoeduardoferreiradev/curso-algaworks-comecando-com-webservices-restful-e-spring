@@ -30,5 +30,9 @@ public class LivrosResources {
 		return livrosRepository.findById(id);
 	}
 	
+	@DeleteMapping("/{id}")
+	public void deletar(@PathVariable("id") Long id) {
+		livrosRepository.deleteById(id);
+	}
 	
 }
