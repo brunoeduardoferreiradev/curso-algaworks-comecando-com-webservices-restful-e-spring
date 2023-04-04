@@ -4,9 +4,10 @@
 
 ### **Estruturas de Pastas**
 
- * /domain : É a pasta que armazena os modelos ou seja as models
+ * /domain     : É a pasta que armazena os modelos ou seja as models
  * /repository : É a pasta que armazena 
- * /resources : é a pasta que armazena 
+ * /resources  : é a pasta que armazena os controladores
+ * /services   : 
  
 ```shell
       
