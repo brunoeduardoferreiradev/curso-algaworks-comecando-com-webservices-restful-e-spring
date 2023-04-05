@@ -5,7 +5,7 @@
 </div>
 
 ## Dados do Curso
-![Badge em Status](https://img.shields.io/badge/STATUS-INICIADO-green?style=for-the-badge)
+![Badge em Status](https://img.shields.io/badge/STATUS-INICIADO-green?style=for-the-badge) 
 
 * Início :  <b>28/03/2023</b> - Finalizado : <b>00/00/000 </b>
 * Curso : <b>Começando com Webservices RESTFul e Spring</b>
